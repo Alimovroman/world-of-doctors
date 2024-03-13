@@ -1,0 +1,67 @@
+.attentionText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1, 290px;
+  height: 83px;
+  padding: 10px;
+  border-radius: 20px;
+  gap: 10px;
+  font-family: Noto Sans;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  background: linear-gradient(90deg, #fdd966 0%, #bcd77e 68.54%);
+}
+.tableHeader {
+  font-family: Noto Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.ingalatorBlock {
+  width: 410px;
+  height: 608px;
+  border-radius: 20px;
+  gap: 15px;
+  background: linear-gradient(90deg, #fbfdff 0%, #d8efff 100.86%);
+  box-shadow: 0px 0px 25px 0px #8ea0ad59;
+}
+.ingalatorHeader {
+  font-family: Noto Sans;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.ingalatorDescription {
+  font-family: Noto Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.recomendationBlock {
+  display: flex;
+}
+.recomendationItem {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 630px;
+  background: linear-gradient(90deg, #fbfdff 0%, #d8efff 100.86%);
+  box-shadow: 0px 0px 25px 0px #8ea0ad59;
+}
