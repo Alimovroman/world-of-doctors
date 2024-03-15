@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(#fff, #d8efff);
+}
+.blueLine {
+  position: absolute;
+  top: -30px;
+  left: -5%;
+  z-index: 30;
+}
+.yellowGreenLine {
+  position: absolute;
+  left: 23%;
+  z-index: 20;
+}
+.yellowLine {
+  position: absolute;
+  left: 31%;
+  z-index: 10;
+}

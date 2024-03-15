@@ -1,3 +1,6 @@
+.root {
+  padding: 0 30px;
+}
 .attentionText {
   display: flex;
   align-items: center;
@@ -6,6 +9,7 @@
   height: 83px;
   padding: 10px;
   border-radius: 20px;
+  margin-top: 60px;
   gap: 10px;
   font-family: Noto Sans;
   font-size: 28px;
@@ -21,21 +25,30 @@
   line-height: 33px;
   letter-spacing: 0em;
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .table {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
 }
-.ingalatorBlock {
+.ingalatorItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
   width: 410px;
   height: 608px;
+  padding-top: 20px;
   border-radius: 20px;
   gap: 15px;
   background: linear-gradient(90deg, #fbfdff 0%, #d8efff 100.86%);
   box-shadow: 0px 0px 25px 0px #8ea0ad59;
 }
 .ingalatorHeader {
+  margin-left: 10px;
+  padding-right: 10px;
   font-family: Noto Sans;
   font-size: 28px;
   font-weight: 500;
@@ -50,18 +63,37 @@
   line-height: 33px;
   letter-spacing: 0em;
   text-align: center;
+  width: 322px;
+}
+.blockImgWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blockImgItem {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .recomendationBlock {
   display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 90px;
 }
 .recomendationItem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   font-family: Roboto;
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0em;
-  text-align: left;
-  width: 630px;
+  width: 35%;
+  height: 350px;
   background: linear-gradient(90deg, #fbfdff 0%, #d8efff 100.86%);
   box-shadow: 0px 0px 25px 0px #8ea0ad59;
+  border-radius: 20px;
+  padding: 0 70px;
+  padding-top: 30px;
 }

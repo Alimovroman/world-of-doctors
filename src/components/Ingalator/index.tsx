@@ -2,10 +2,11 @@ import style from "./Ingalator.module.css";
 import ing1Img from "../../common/assets/ingalator1.svg";
 import ing2Img from "../../common/assets/ingalator2.svg";
 import ing3Img from "../../common/assets/ingalator3.svg";
+import blockImg from "../../common/assets/block.svg";
 
 export const Ingalator = () => {
   return (
-    <div>
+    <div className={style.root}>
       <div className={style.attentionText}>
         Даже 1 среднетяжелое обострение — сигнал к увеличению объема терапии
       </div>
@@ -13,12 +14,12 @@ export const Ingalator = () => {
         Приоритетные направления фармакотерапевтической стратегии при ХОБЛ1:
       </div>
       <div className={style.table}>
-        <div className={style.ingalatorBlock}>
+        <div className={style.ingalatorItem}>
           <div>
             <img src={ing1Img} alt="ingolator" />
           </div>
           <div className={style.ingalatorHeader}>
-            Ингаляционный антихолинергик
+            Ингаляционный <b>антихолинергик</b>
           </div>
           <div className={style.ingalatorDescription}>
             Ингибирует бронхоконстрикторные эффекты ацетилхолина, вступая с ним
@@ -27,11 +28,14 @@ export const Ingalator = () => {
             β2-агонистов1
           </div>
         </div>
-        <div className={style.ingalatorBlock}>
+        <div className={style.ingalatorItem}>
           <div>
             <img src={ing2Img} alt="ingolator" />
           </div>
-          <div className={style.ingalatorHeader}>Ингаляционный β2-агонист</div>
+          <div className={style.ingalatorHeader}>
+            Ингаляционный <br />
+            <b>β2-агонист</b>
+          </div>
           <div className={style.ingalatorDescription}>
             Вызывает бронходилатацию посредством релаксации гладкомышечных
             клеток бронхов независимо от характера констриктивных стимулов, т.
@@ -39,18 +43,27 @@ export const Ingalator = () => {
             бронхоконстрикции
           </div>
         </div>
-        <div className={style.ingalatorBlock}>
+        <div className={style.ingalatorItem}>
           <div>
             <img src={ing3Img} alt="ingolator" />
           </div>
           <div className={style.ingalatorHeader}>
-            Ингаляционный глюкокортикостероид (ИГКС)
+            Ингаляционный <b>глюкокортикостероид</b> <br />
+            (ИГКС)
           </div>
           <div className={style.ingalatorDescription}>
             Снижает частоту обострений, особенно в сочетании с ДДБА, подавляют
             хроническое воспаление при астме и снижают гиперреактивность
             дыхательных путей
           </div>
+        </div>
+      </div>
+      <div className={style.blockImgWrapper}>
+        <div className={style.blockImgItem}>
+          <img src={blockImg} alt="block" />
+        </div>
+        <div className={style.blockImgItem}>
+          <img src={blockImg} alt="block" />
         </div>
       </div>
       <div className={style.recomendationBlock}>

@@ -1,23 +1,50 @@
+.root {
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
 .link {
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
   font-family: Noto Sans;
   font-size: 24px;
   font-weight: 400;
   line-height: 33px;
   letter-spacing: 0em;
-  text-align: left;
   margin-top: 30px;
-  height: 194px;
+  min-height: 194px;
   width: 1290px;
   border: 1px solid #01457a;
   border-radius: 20px;
   box-shadow: 0px 0px 25px 0px #8ea0ad59;
 }
+.icon {
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
 .linkHeader {
-  width: 295px;
-  height: 114.5px;
+  width: 248px;
+  margin-left: 20px;
+
+  clip-path: polygon(
+    0% 0px,
+    0px 0%,
+    calc(100% - 50px) 0%,
+    100% 50px,
+    100% calc(100% - 50px),
+    calc(100% - 50px) 100%,
+    0px 100%,
+    0 calc(100% - 30px)
+  );
+  background: linear-gradient(90deg, #fbfdff 0%, #d8efff 100.86%);
 }
 .description {
   width: 767px;
   height: 99px;
+  margin-left: 40px;
+}
+.click {
+  position: relative;
+  bottom: 90px;
+  left: 125px;
 }
